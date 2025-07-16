@@ -1,0 +1,273 @@
+
+/* ========== RESET & BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ========== NAVBAR ========== */
+.main-header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #355C57; /* Deep teal */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #355C57;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #A8C3A6; /* Soothing green */
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+              url('../images/hero.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  color: #355C57;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #355C57;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #A8C3A6;
+  color: #333;
+}
+/* ========== ABOUT SECTION ========== */
+.about {
+  padding: 80px 20px;
+  background-color: #f6f9f7;
+}
+
+.about .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  color: #355C57;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+/* ========== CLASSES SECTION ========== */
+.classes {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.classes .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.classes h1 {
+  font-size: 2.5rem;
+  color: #355C57;
+  margin-bottom: 40px;
+}
+
+.class-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.class-card {
+  background-color: #f6f9f7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.class-card h3 {
+  color: #355C57;
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.class-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #355C57;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.class-card .btn:hover {
+  background-color: #A8C3A6;
+  color: #333;
+}
+/* ========== CONTACT SECTION ========== */
+.contact {
+  padding: 80px 20px;
+  background-color: #fffdf6;
+}
+
+.contact .container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  color: #355C57;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact button {
+  background-color: #355C57;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #264c45;
+}
+/* ========== GALLERY SECTION ========== */
+.gallery {
+  padding: 80px 20px;
+  background-color: #f6f9f7;
+  text-align: center;
+}
+
+.gallery h1 {
+  font-size: 2.5rem;
+  color: #355C57;
+  margin-bottom: 40px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 2rem;
+}
+
+
+
+
+
+
