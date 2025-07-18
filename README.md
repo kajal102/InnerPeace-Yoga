@@ -25,11 +25,9 @@ InnerPeace Yoga is a responsive, multipage website designed to promote health an
 
 ---
 
-## 📷 Preview
 
-![InnerPeace Yoga Screenshot](screenshot.png)
 
-*(Add a real screenshot with this name in your repo)*
+
 
 ---
 
