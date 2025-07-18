@@ -1,59 +1,23 @@
-# 🧘‍♀️ InnerPeace Yoga
+# InnerPeace Yoga Website 🧘‍♀️🌿
 
-A fully responsive, multi-page website designed for a fictional yoga studio called **InnerPeace Yoga**. This project showcases modern front-end development practices using **HTML, CSS, and JavaScript**.
+Welcome to the official repository for **InnerPeace Yoga** — a responsive, multi-page website built using HTML, CSS, and JavaScript.
 
----
+## 🌟 Project Overview
 
-## 📌 Project Features
+InnerPeace Yoga offers users a calming and modern interface to explore yoga classes, schedules, and wellness services. The website is designed with clean visuals, semantic HTML, and responsive layouts using Flexbox and CSS Grid.
 
-- 🧭 **Multi-page Navigation** (Home, About, Classes, Gallery, Contact)
-- 🌐 **Responsive Design** using **Flexbox**, **Grid**, and a dedicated `responsive.css` file
-- 🎨 Clean and calming **UI theme** using a soft, earthy color palette
-- 📷 **Gallery page** showcasing yoga images in a grid layout
-- 📬 **Contact form** with client-side **JavaScript validation**
-- 🧱 **Organized folder structure** for scalability and maintainability
+## 📁 Features
 
----
+- 🧘‍♂️ Home, About, and Services pages
+- 📱 Fully responsive design (mobile + desktop)
+- 🎨 Flexbox and Grid layout for structured UI
+- 🌐 SEO-friendly meta tags and semantic structure
+- 💡 Form validation and interactivity with JavaScript
 
-## 🗂️ Folder Structure
+## 🛠️ Technologies Used
 
-InnerPeaceYoga/
-│
-├── index.html
-├── about.html
-├── classes.html
-├── gallery.html
-├── contact.html
-│
-├── css/
-│ ├── style.css
-│ └── responsive.css
-│
-├── js/
-│ └── script.js
-│
-├── images/
-│ └── (All yoga-related image files)
-
----
-
-## 💡 Technologies Used
-
-- **HTML5** – Semantic structure
-- **CSS3** – Styling, layout (Flexbox, Grid), responsiveness
-- **JavaScript** – Form validation logic
-- **VS Code** – Code editor
-- **Google Fonts & Meta Tags** – For typography and SEO basics
-
----
-
-## 📱 Responsive Preview
-
-The website is fully responsive and adapts to:
-- Desktop
-- Tablet
-- Mobile devices
-
----
-
+- HTML5
+- CSS3 (with Flexbox & Grid)
+- JavaScript (basic interactivity)
+- Responsive Design with media queries
 
